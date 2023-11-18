@@ -1,21 +1,22 @@
-body
-{
-    display: flex;
-    flex-direction: column;
-  }
-   {
-        header tag;
-  main 
-{
-    display: flex;
-    flex-direction: row;
-    flex: auto; /* Automatically adjust height and width */
-  }
-  article {
-    flex: 2; /* Takes up 2/3 of the width */
-    overflow-y: auto; /* Allows vertical scrolling */
-  }
-  
-  aside {
-    flex: 1; /* Takes up to 1/3 % of the width */
-    overflow-y: auto; /* Allows vertical scrolling.
+CSS
+body{ display flex;
+	background color:solid; blue
+}
+
+Header
+{display flex;vertical
+
+Main;article;aside;main{ Display flex:hoprizontal.
+
+main{	height;display flex auto
+	width;Display flex auto
+}
+Article{ witdth;2/3% of page.
+	display flex 2.
+	Overflow-y:auto
+}
+Aside{ Width;1/3;of 4 boxes.
+	display flex 1.
+	Overflow-y:auto
+
+
