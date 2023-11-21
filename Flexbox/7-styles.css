@@ -5,7 +5,8 @@
     4. CARD
 */
 
-/*** 1. GLOBAL ***/
+/* 1. GLOBAL
+    ===========================*/
 
 /* Reset / Normalize
    ============================= */
@@ -63,7 +64,7 @@
     /* HEADER
         ==============================*/
     .header-container{
-      -align-item:center;
+      --align-item:center;
      --display:flex;
      --justify-content:space-between;
     --header-padding: 4rem 0 0;
