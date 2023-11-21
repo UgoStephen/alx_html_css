@@ -15,7 +15,7 @@
 /* Variables
    ============================= */
 
-   :root {
+   .root {
     --color-primary: #D73953;
     --color-black:  #090909;
     --color-white: #ffffff;
@@ -41,7 +41,8 @@
     --line-height-base: 1.5;
     --line-height-big: 1.8;
   
-    /** SECTION **/
+    /*SECTION
+        =========================*/
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-header-align: center;
@@ -59,17 +60,22 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
   
-    /** HEADER **/
-    header-container:{
+    /* HEADER
+        ==============================*/
+    .header-container{
+      -align-item:center;
      --display:flex;
      --justify-content:space-between;
     --header-padding: 4rem 0 0;
-    --align-item:center;
+    
     }
-    /** FOOTER **/
+    /* FOOTER
+        ==================================*/
+
     --footer-padding: 5rem 0 1rem;
   
-    /** NAVBAR **/
+    /*NAVBAR 
+        ===================================*/
     --nav-item-font-family: var(--font-family-headings);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -78,7 +84,8 @@
     --nav-item-margin: 0 2rem 0 0;
     --nav-item-link-hover: var(--color-white);
   
-    /** BUTTON **/
+    /*BUTTON
+        =====================================*/
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: var(--color-primary) solid 0.2rem;
@@ -89,8 +96,9 @@
     --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
   
-    /** MOTION **/
-    --transition-duration: .3s;
+    /* MOTION
+        ======================================*/
+    --transition-duration: 3s;
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
   }
   
@@ -298,7 +306,8 @@
     fill: var(--text-color);
   }
   
-  /*** 3. SECTION ***/
+  /* 3. SECTION 
+        ===============================*/
   
   /* Section (all styles)
       ============================= */
