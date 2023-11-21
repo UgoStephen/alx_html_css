@@ -65,10 +65,6 @@
         ==============================*/
     .header-container{
       --align-item:center;
-     --display:flex;
-     --justify-content:space-between;
-    --header-padding: 4rem 0 0;
-    
     }
     /* FOOTER
         ==================================*/
