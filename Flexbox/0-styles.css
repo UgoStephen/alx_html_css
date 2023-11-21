@@ -5,7 +5,8 @@
     4. CARD
 */
 
-/*** 1. GLOBAL ***/
+/*1. GLOBAL 
+    =============================*/
 
 /* Reset / Normalize
    ============================= */
@@ -15,7 +16,7 @@
 /* Variables
    ============================= */
 
-   :root {
+   .root{
     --color-primary: #D73953;
     --color-black:  #090909;
     --color-white: #ffffff;
@@ -41,7 +42,8 @@
     --line-height-base: 1.5;
     --line-height-big: 1.8;
   
-    /** SECTION **/
+    /* SECTION
+           ====================================*/
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-header-align: center;
@@ -59,7 +61,8 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
   
-    /** HEADER **/
+    /* HEADER
+           ==================================*/
     --header-padding: 4rem 0 0;
     --header-logo-position: relative;
     --header-logo-link-display: inline-block;
@@ -90,7 +93,8 @@
     --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
   
-    /** MOTION **/
+    /* MOTION
+       ===============================*/
     --transition-duration: .3s;
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
   }
@@ -146,7 +150,7 @@
     text-decoration: var(--button-text-decoration);
   }
   
-  .button:hover {
+  .buttonh over {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
@@ -166,7 +170,8 @@
     white-space: nowrap;
   }
   
-  /*** 2. LAYOUT ***/
+  /*2. LAYOUT 
+        =============================*/
   
   /* Layout
       ============================= */
@@ -303,7 +308,8 @@
     fill: var(--text-color);
   }
   
-  /*** 3. SECTION ***/
+  /*3 SECTION
+    `    ===========================*/
   
   /* Section (all styles)
       ============================= */
@@ -370,7 +376,8 @@
     padding: 10rem 40rem 2rem 0;
   }
   
-  /*** 4. CARD ***/
+  /*4. CARD 
+        ==========================*/
   
   /* Card (all styles)
       ============================= */
