@@ -1,1 +1,38 @@
+/* Variables
+    ===========================*/
+
+    -- --color-primary: #D73953;
+    --color-black:  #090909;
+    --color-white: #ffffff;
+    --color-grey: #a0a0a0;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --Margin 
+    --Background image;
+
+/*main 
+============================*/
+.header{
+    Display flex;
+}
+.Main container{
+    background-image:url(C:\Users\Admin\Desktop\DFSI\Back ground.jpg)
+    transition:all;
+    height:800px;
+    width:1400px;
+    align-items: center;
+    
+
+    
+}
+.link{
+    nav menu:
+    --color-light-grey
+    --border-inline-color:
+    --border-radius: 1px;
+}
+..div
+display:flex;
+Justify content:center;
+
 
